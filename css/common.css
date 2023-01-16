@@ -22,3 +22,20 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-list{
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+}
+
+.img-item{
+  list-style: none;
+  flex-basis: calc((100% - 30px) / 3);
+}
